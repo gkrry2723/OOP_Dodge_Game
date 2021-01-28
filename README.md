@@ -4,18 +4,26 @@
 * Our Name and StudentID
 
 	Name	StudentID
+	
 	김현주	20184754
+	
 	이현주	20184060
 
 
 * Compilation Environment including compiler type and version
 
 개발 환경: 2019 visual studio, DirectX 12
+
 실행 방법1: VirtualLego.dsw 파일을 visual studio로 실행시킨다.
+
 	프로젝트의 속성에 들어간다.
+	
 	VC++디렉터리에 포함 디렉터리를 “(DirectX SDK가 있는 path)\Include”로 적용한다.
+
 	VC++디렉터리에 라이브러리 디렉터리를 “(DirectX SDK가 있는 path)\Lib\x86”로 적용한다.
+
 	C/C++의 코드생성의 함수 수준 링크 사용을 “예”로 변경한다.
+
 	“디버깅” 혹은 “디버그하지 않고 시작”을 한다.
 
 실행 방법2: proj3폴더의 VirtualLego.exe파일을 실행한다.
@@ -37,6 +45,7 @@ ex)
 - 게임 룰 설명과 게임 결과 출력, 타이머 출력을 위한 CText class 생성 및 활용
 
 - 실감나는 게임 환경을 위해 삽입한 효과음을 위한 CSound class 생성 및 활용
+
 (CSound class를 성공적으로 구현하기위해 d3dUtility.h 파일과 .cpp파일을 적절히 수정함)
 
 - 게임 시작 및 게임 종료 조건에 맞도록 각 공 객체들의 물리적 action을 구현하기 위한 hasIntersected, hitBy 등의 method를 수정
